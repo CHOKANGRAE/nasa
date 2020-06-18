@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="../css/base/reset.css">
   <link rel="stylesheet" href="../css/base/common.css">
 
-  <link rel="stylesheet" href="../css/src/nasa_main.css">
+  <link rel="stylesheet" href="../css/src/main/nasa_base.css">
 
   <title> nasa </title>
 </head>
@@ -30,17 +30,108 @@
         <div class="nav">
           <nav id="gnb">
             <ul>
-              <li>ABOUT</li>
-              <li>TOPIC</li>
-              <li>MISSION</li>
-              <li>PROGRAM</li>
-              <li>GALLERY</li>
-              <li>DOWNLOAD</li>
+              <li>
+                <dl>
+                  <dt><a href="#">ABOUT</a></dt>
+                  <dd>
+                    <ul>
+                      <li><a href="#">나사에 대하여</a></li>
+                      <li><a href="#">위치</a></li>
+                      <li><a href="#">전시회</a></li>
+                      <li><a href="#">조직</a></li>
+                      <li><a href="#">우주비행사</a></li>
+                      <li><a href="#">nasa 사람들</a></li>
+                      <li><a href="#">커리어</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><a href="#">TOPIC</a></dt>
+                  <dd>
+                    <ul>
+                      <li><a href="#">우주의 인간</a></li>
+                      <li><a href="#">달에서 화성까지</a></li>
+                      <li><a href="#">지구</a></li>
+                      <li><a href="#">태양계와 그 너머</a></li>
+                      <li><a href="#">우주 기술</a></li>
+                      <li><a href="#">비행</a></li>
+                      <li><a href="#">줄기세포</a></li>
+                      <li><a href="#">역사</a></li>
+                      <li><a href="#">혜택</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><a href="#">MISSION</a></dt>
+                  <dd>
+                    <ul>
+                      <li><a href="#">아르테미스 프로그램</a></li>
+                      <li><a href="#">상업용 승무원</a></li>
+                      <li><a href="#">화성 로버</a></li>
+                      <li><a href="#">화성 착륙선</a></li>
+                      <li><a href="#">우주 망원경</a></li>
+                      <li><a href="#">국제 우주 정거장</a></li>
+                      <li><a href="#">명왕성과 그 너머</a></li>
+                      <li><a href="#">오시리스 소행성 임무</a></li>
+                      <li><a href="#">파커 솔라 프로브</a></li>
+                      <li><a href="#">발사 및 착륙</a></li>
+                      <li><a href="#">모든 임무 AZ</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><a href="#">PROGRAM</a></dt>
+                  <dd>
+                    <ul>
+                      <li><a href="#">미디어</a></li>
+                      <li><a href="#">교육자</a></li>
+                      <li><a href="#">학 생</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><a href="#">GALLERY</a></dt>
+                  <dd>
+                    <ul>
+                      <li><a href="#">오늘의 이미지</a></li>
+                      <li><a href="#">갤러리</a></li>
+                      <li><a href="#">비디오</a></li>
+                      <li><a href="#">사용 및 저작권</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><a href="#">DOWNLOAD</a></dt>
+                  <dd>
+                    <ul>
+                      <li><a href="#">앱</a></li>
+                      <li><a href="#">팟 캐스트</a></li>
+                      <li><a href="#">전자책</a></li>
+                      <li><a href="#">라디오</a></li>
+                      <li><a href="#">오디오 및 벨소리</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
             </ul>
           </nav>
 
           <nav id="unb">
-            <div class="searchBox"></div>
+            <div class="searchBox">
+              <legend for="search">검색</legend>
+              <input type="search" name="search" id="search" placeholder="Search">
+            </div>
+            <div class="search_icon"><a href="#"></a></div>
             <div class="shareBox"><a href="#"></a></div>
           </nav>
       </div>
@@ -63,6 +154,7 @@
         <p class="company_title_p2"> National Aeronautics &amp; Space Administration</p><br />
         <p class="company_title_p3"> 미국 항공 우주국</p>
       </div>
+
       <div class="topic_area">
         <div class="topic_slide">
           <h3> TOPIC </h3>
@@ -74,9 +166,48 @@
         
         <div class="topic_slide_box">
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+              <a href="#">
+                <img src="../img/main/topicBox/slide_img/slide_img_01.jpg" alt="달에서 화성까지">
+                <span class="topic_title">달에서 화성까지</span>
+                <span class="topic_content">발사는 NASA의 다음 화성 탐사선, <br /> 인내에 접근하고있다</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../img/main/topicBox/slide_img/slide_img_02.jpg" alt="soho">
+                <span class="topic_title">소호</span>
+                <span class="topic_content">ESA & NASA 태양 천문대가 <br />발견 한 4,000 번째 혜성</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../img/main/topicBox/slide_img/slide_img_03.jpg" alt="nustar">
+                <span class="topic_title">NuStar</span>
+                <span class="topic_content">우주의 아기가 발견되고 훌륭하다.</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../img/main/topicBox/slide_img/slide_img_04.jpg" alt="우주 정거장">
+                <span class="topic_title">우주 정거장</span>
+                <span class="topic_content">NASA, 국제 우주 정거장 프로그램 관리자로 지명</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../img/main/topicBox/slide_img/slide_img_05.jpg" alt="ibex">
+                <span class="topic_title">아이 벡스</span>
+                <span class="topic_content">IBEX, 경계에서 성간 공간으로의 11 년 변화 차트</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../img/main/topicBox/slide_img/slide_img_06.jpg" alt="아르테미스">
+                <span class="topic_title">아르테미스 I</span>
+                <span class="topic_content">NASA Artemis의 첫 달 임무를 위한<br /> 로켓 모터가 우주 정거장에 도착</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -141,8 +272,14 @@
           <li><a href="#"><span>linkedn</span></a></li>
           <li><a href="#"><span>flickr</span></a></li>
           <li><a href="#"><span>pinterest</span></a></li>
-          <li><a href="#"><span>soundclloud</span></a></li>
           <li><a href="#"><span>giphy</span></a></li>
+          <li><a href="https://soundcloud.com/nasa"><iframe allowtransparency="true"
+                           scrolling="no" frameborder="no"
+                           src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fundefined&color=orange_white&size=48"
+                           style="width: 60px; height: 60px;">
+                          </iframe>
+                          <span>soundcloud</span></a></li>
+
         </ul>
       </div>
     </footer>
