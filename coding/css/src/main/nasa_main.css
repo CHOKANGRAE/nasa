@@ -49,7 +49,7 @@ h1{
       margin-right: 8px;
       line-height: 90px;
       font-weight: bold;
-      font-size:1.5rem;
+      font-size:1.3rem;
       text-align: center;}
 
     #gnb li:last-child{margin-right: 0;}
@@ -212,7 +212,7 @@ h1{
     .topic_slide_box{
       position: absolute; z-index:100;
       width:1300px; height:400px;
-      bottom:5rem; right:0;
+      bottom:3rem; right:0;
       overflow: hidden;
     }
 
@@ -308,7 +308,7 @@ h1{
 }
 
 .program_area{
-  width:1420px; height: 500px;
+  width:90%; height: 500px;
   margin:auto; margin-top: 50px; 
 }
 
@@ -317,8 +317,8 @@ h1{
 }
 
 .program_area li {
-  float:left; width: 400px; height: 500px;
-  margin-right: 110px; background-color: #fff;
+  float:left; width: 30%; height: 500px;
+  margin-right: 5%; background-color: #fff;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -419,4 +419,5 @@ background-image: url(../../../img/main/programBox/students.jpg);}
 .snsBox li:nth-child(9){background-image: url(../../../img/logo/flickr_logo.png);}
 .snsBox li:nth-child(10){background-image: url(../../../img/logo/pinterest_logo.png);}
 .snsBox li:nth-child(11){background-image: url(../../../img/logo/giphy_logo.png);}
+.snsBox li:nth-child(12){background-image: url(../../../img/logo/soundcloud_logo.png);}
 

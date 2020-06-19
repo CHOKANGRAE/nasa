@@ -48,10 +48,8 @@
     var wScroll = $(this).scrollTop();
     if(headOffset < wScroll){ headBox.fadeOut(1000);
     }else{
-      headBox.fadeIn(1000);
+      headBox.show();
     }
-
-    
   });
 
 
