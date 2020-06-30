@@ -4,7 +4,7 @@
 :root {font-family: '나눔고딕';}
 
 #wrap{
-  width:100%; height: auto; min-height:700px;
+  width:100%; height: auto;
 }
 
 /* 공통 사항 ========================================== */
@@ -78,7 +78,7 @@ h1{
     #gnb dd li{
       width:100%; height:50px;
       line-height:50px;
-      font-size: 1.1rem;
+      font-size: 1.3rem;
       font-weight: normal;
       background-color: rgba(25, 65, 137, 0.7);
     }
@@ -87,19 +87,23 @@ h1{
       font-weight: bold;
       background-color: rgba(67, 80, 103, 0.8);
     }
+
+    #gnb_mob_area{display:none;}
   /* ---------- user navigation ----------  */
   #unb{
     float:right;
     margin-top:10px;
     width:20%; height:70px;
     padding:5px; box-sizing: border-box;
-    background-color: #777;
   }
 
     .searchBox{
       float:left;
       width:60%; height:100%;
-      background-color: #fff;
+    }
+
+    .searchBox input{
+      background-color: #333;
     }
 
     #search{width:100%; height:100%; font-size:1rem;}

@@ -35,6 +35,7 @@
   });
 
   //========== #headBox 스크롤 시 사라짐======================
+
   //========== #topicBox company_title fadeIn/Out ========
   var headBox = $('#headBox')
   var headOffset = headBox.offset().top;
@@ -77,7 +78,7 @@
     if(thisIt === nextBtn && thisOk){
 
       thisOk = false;
-      topicUl.animate({left: -topFirstSize + 'px'}, function(){
+      topicUl.stop().animate({left: -topFirstSize + 'px'}, function(){
 
         topicLi.eq(mvLength).prevAll('li').appendTo(topicUl);
         topicUl.css({left:0});
@@ -87,13 +88,15 @@
 
     }else if(thisOk){
       thisOk = false;
-      topicUl.animate({left:topFirstSize + 'px'}, function(){
+      topicUl.stop().animate({left:topFirstSize + 'px'}, function(){
         topicLi.eq((mvLength * -1) -1).nextAll().prependTo(topicUl);
         topicUl.css({left:0});
         topicLi   = topicUl.find('li');
         thisOk= true;
       });
     }
+
+    
   });
 
   //========== #footBox > .snsBox hover ================
