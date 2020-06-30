@@ -4,7 +4,7 @@
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
 
   /* gnb 폰트사이즈 조정하고 싶은데 */
-` #gnb dt{
+#gnb dt{
   font-size:1rem;
 }
 
@@ -47,4 +47,3 @@
     width:50px; height:50px;
   }
  
-}

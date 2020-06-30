@@ -44,7 +44,7 @@ select {
      -moz-appearance:button;
       -ms-appearance:button;
        -o-appearance:button;
-          appearance:button;
+        /*  appearance:button;*/
 }
 
 header,article,section,nav,footer,aside,main,
